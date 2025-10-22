@@ -1,4 +1,4 @@
-# AI Learning Companion
+# Scarlet Studio App
 
 An intelligent, agentic tutoring platform designed to help instructors create structured, AI-assisted courses and allow students to learn adaptively through contextual tutoring.
 
