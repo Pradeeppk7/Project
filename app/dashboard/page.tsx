@@ -20,6 +20,10 @@ export default function DashboardPage() {
     router.push('/login');
   };
 
+  const handleCreateCourse = () => {
+    router.push('/courses');
+  };
+
   if (!isAuthenticated || user?.role !== 'instructor') {
     return (
       <div className="min-h-screen flex items-center justify-center">
@@ -52,7 +56,7 @@ export default function DashboardPage() {
               <p className="body-small text-secondary-600 mb-4">
                 Start building your AI-assisted course content
               </p>
-              <Button className="w-full">Create New Course</Button>
+              <Button className="w-full" onClick={handleCreateCourse}>Create New Course</Button>
             </CardContent>
           </Card>
 
